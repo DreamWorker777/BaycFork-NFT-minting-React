@@ -14,7 +14,7 @@ export const NavBar = () => {
 
     return (
         <nav className="navBar">
-            <a href='#/' className="navBar__logo">
+            <a href='#javascript' className="navBar__logo">
                 <img src={logo} alt="logo"></img>
             </a>
 
@@ -39,23 +39,23 @@ export const NavBar = () => {
 
             <div className="navBar__menu">
                 <div className="navBar__menu__links">
-                    <a href="#">BUY AN APE</a>
-                    <a href="#">ROADMAP</a>
-                    <a href="#">TEAM</a>
-                    <a href="#">MAYC</a>
-                    <a href="#">GALLERY</a>
-                    <a href="#">PROVENENCE</a>
-                    <a href="#">MEMBERS</a>
+                    <a href="#javascript">BUY AN APE</a>
+                    <a href="#javascript">ROADMAP</a>
+                    <a href="#javascript">TEAM</a>
+                    <a href="#javascript">MAYC</a>
+                    <a href="#javascript">GALLERY</a>
+                    <a href="#javascript">PROVENENCE</a>
+                    <a href="#javascript">MEMBERS</a>
                 </div>
 
                 <div className="navBar__menu__socialIcons">
-                    <a href="#">
+                    <a href="#javascript">
                         <img src={icon1} alt="icon1"></img>
                     </a>
-                    <a href="#">
+                    <a href="#javascript">
                         <img src={icon2} alt="icon2"></img>
                     </a>
-                    <a href="#">
+                    <a href="#javascript">
                         <img src={icon3} alt="icon2"></img>
                     </a>
                 </div>

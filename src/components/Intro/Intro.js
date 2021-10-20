@@ -37,7 +37,7 @@ export const Intro = () => {
                         <h3 className="intro__fair__mint__title">BUY AN APE</h3>
                         <p className="intro__fair__mint__desc">The initial sale has sold out. To get your Bored Ape, check out the collection on OpenSea.</p>
                         <div className="intro__fair__mint__wrapper">
-                            <a href="#">
+                            <a href="#javascript">
                                 <button type="button">BUY AN APE ON OPENSEA</button>
                             </a>
                         </div>
