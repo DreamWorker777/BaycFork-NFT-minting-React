@@ -1,0 +1,28 @@
+.club {
+    .section__title {
+        margin-bottom: 2em;
+    }
+
+    &__item {
+        padding: 1px;
+        border-radius: 10px;
+        width: 80%;
+        left: 10%;
+        position: relative;
+        margin: 15px 0px;
+
+        p {
+            text-align: center;
+            font-size: 1.3em;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .club {
+        &__item {
+            width: 100%;
+            left: 0;
+        }
+    }
+}

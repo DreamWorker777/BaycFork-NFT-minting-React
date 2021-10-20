@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+body {
+    background-color: #000;
+    font-family: "Montserrat",sans-serif;
+    caret-color: transparent;
+    color: #fff;
+}
+
+a {
+    text-decoration: unset;
+    color: white;
+}
+
+section {
+    border-bottom: 1px solid #3b3b3b;
+}
+
+.section {
+    &__title {
+        font-style: italic;
+        font-size: 1.8em;
+        font-weight: 900;
+        display: flex;
+        margin-bottom: 1rem !important;
+        margin-block-start: 0;
+    }
+
+    &__desc {
+        text-align: justify;
+        font-size: 1em;
+        line-height: 1.5;
+    }
+}
+
+.contentWrapper {
+    padding: 30px;
+}
+
+.back_red {
+    background-color: rgb(180, 25, 25);
+}
+
+.back_blue {
+    background-color: rgb(39, 29, 175);
+}
+
+.back_yellow {
+    background-color: rgb(178, 180, 25);
+}
+
+.back_green {
+    background-color: rgb(25, 180, 46);
+}
+
+.back_purple {
+    background-color: rgb(175, 25, 180);
+}
