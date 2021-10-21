@@ -6,6 +6,7 @@ import Club from '../../components/Club/Club';
 import BathRoom from '../../components/BathRoom/BathRoom';
 import RoadMap from '../../components/RoadMap/RoadMap';
 import Team from '../../components/Team/Team';
+import Footer from '../../components/Footer/Footer';
 
 export const Home = () => {
     return (
@@ -20,6 +21,8 @@ export const Home = () => {
                 <RoadMap />
                 <Team />
             </div>
+
+            <Footer />
         </div>
     )
 }

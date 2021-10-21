@@ -18,6 +18,44 @@
                     border-radius: 10px;
                 }
             }
+
+            &__info {
+                width: 75%;
+                left: 12.5%;
+                position: relative;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border-radius: 10px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    &__contractAddress {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 60px;
+        margin-bottom: 30px;
+
+        a {
+            color: #bfc500;
+            text-decoration: underline;
+            word-wrap: break-word;
+            font-size: 1.2em;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .team {
+        &__contractAddress {
+            flex-direction: column;
+
+            a {
+                margin-top: 5px;
+            }
         }
     }
 }
@@ -33,7 +71,12 @@
                         width: 90%;
                     }
                 }
+
+                &__info {
+                    width: 90%;
+                    left: 5%;
+                }
             }
-        }
+        }        
     }
 }
