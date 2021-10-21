@@ -20,6 +20,10 @@
     .bathRoom {
         flex-wrap: wrap;
 
+        &__content {
+            padding-right: 0px;
+        }
+
         &__picture {
             width: 100%;
             margin-top: 30px;
