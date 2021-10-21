@@ -1,8 +1,11 @@
 import './NavBar.scss';
 import logo from '../../assets/images/bayc-logo-z.png';
-import icon1 from '../../assets/images/topIcon1.svg';
-import icon2 from '../../assets/images/topIcon2.svg';
-import icon3 from '../../assets/images/topIcon3.svg';
+
+import discordIcon from '../../assets/images/discord.svg';
+import instagramIcon from '../../assets/images/instagram.svg';
+import twitterIcon from '../../assets/images/twitter.svg';
+import homeIcon from '../../assets/images/home.png';
+import telegramIcon from '../../assets/images/telegram.png';
 
 import { Link } from 'react-scroll'
 import menuIcon from '../../assets/images/menu.svg';
@@ -71,13 +74,19 @@ export const NavBar = () => {
 
                 <div className="navBar__menu__socialIcons">
                     <a href="#javascript">
-                        <img src={icon1} alt="icon1"></img>
+                        <img src={homeIcon} alt="icon2"></img>
                     </a>
                     <a href="#javascript">
-                        <img src={icon2} alt="icon2"></img>
+                        <img src={instagramIcon} alt="icon1"></img>
                     </a>
                     <a href="#javascript">
-                        <img src={icon3} alt="icon2"></img>
+                        <img src={discordIcon} alt="icon2"></img>
+                    </a>
+                    <a href="#javascript">
+                        <img src={twitterIcon} alt="icon2"></img>
+                    </a>
+                    <a href="#javascript">
+                        <img src={telegramIcon} alt="icon2"></img>
                     </a>
                 </div>
             </div>
