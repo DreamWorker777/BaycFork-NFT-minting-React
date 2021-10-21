@@ -9,7 +9,22 @@ import menuIcon from '../../assets/images/menu.svg';
 
 export const NavBar = () => {
     const menu = [
-        "BUY AN APE", "ROADMAP", "TEAM", "MAYC", "GALLERY", "PROVENENCE", "MEMBERS"
+        {
+            title: 'BUY AN APE',
+            to: '',
+        },
+        {
+            title: 'ROADMAP',
+            to: 'roadMap',
+        },
+        {
+            title: 'TEAM',
+            to: '',
+        },
+        {
+            title: 'MAYC',
+            to: '',
+        },
     ];
 
     return (
@@ -28,9 +43,9 @@ export const NavBar = () => {
                                 smooth={true} 
                                 duration={500} 
                                 spy={true} 
-                                to={ item }
+                                to={ item.to }
                             >
-                                { item.toUpperCase() }
+                                { item.title }
                             </Link>
                         ))
                     }
@@ -39,13 +54,19 @@ export const NavBar = () => {
 
             <div className="navBar__menu">
                 <div className="navBar__menu__links">
-                    <a href="#javascript">BUY AN APE</a>
-                    <a href="#javascript">ROADMAP</a>
-                    <a href="#javascript">TEAM</a>
-                    <a href="#javascript">MAYC</a>
-                    <a href="#javascript">GALLERY</a>
-                    <a href="#javascript">PROVENENCE</a>
-                    <a href="#javascript">MEMBERS</a>
+                    {
+                        menu.map((item, index) => (
+                            <Link
+                                key={index}
+                                smooth={true} 
+                                duration={500} 
+                                spy={true} 
+                                to={ item.to }
+                            >
+                                { item.title }
+                            </Link>
+                        ))
+                    }
                 </div>
 
                 <div className="navBar__menu__socialIcons">

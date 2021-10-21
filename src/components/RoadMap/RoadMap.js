@@ -4,7 +4,7 @@ import pic from '../../assets/images/serum-machine.gif';
 
 export const RoadMap = () => {
     return (
-        <section className="roadMap contentWrapper">
+        <section className="roadMap contentWrapper" id="roadMap">
             <div className="roadMap__title">
                 <h1 className="section__title">
                     ROADMAP ACTIVATIONS
