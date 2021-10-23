@@ -1,3 +1,5 @@
+import {NotificationManager} from 'react-notifications';
+
 import './Intro.scss';
 
 import img1 from '../../assets/images/ape1.png';
@@ -8,6 +10,10 @@ import img4 from '../../assets/images/ape4.png';
 import back from '../../assets/images/bayc-mutant-hero.jpg';
 
 export const Intro = () => {
+    const buyAPE = () => {
+        NotificationManager.success('Success!');
+    }
+
     return (
         <section className="intro">
             <div className="intro__back">
@@ -38,7 +44,7 @@ export const Intro = () => {
                         <p className="intro__fair__mint__desc">The initial sale has sold out. To get your Bored Ape, check out the collection on OpenSea.</p>
                         <div className="intro__fair__mint__wrapper">
                             <a href="#javascript">
-                                <button type="button">BUY AN APE ON OPENSEA</button>
+                                <button type="button" onClick={ () => buyAPE() }>BUY AN APE ON OPENSEA</button>
                             </a>
                         </div>
                     </div>

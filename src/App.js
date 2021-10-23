@@ -1,3 +1,6 @@
+import {NotificationContainer} from 'react-notifications';
+import 'react-notifications/lib/notifications.css';
+
 import './App.scss';
 
 import {
@@ -15,6 +18,8 @@ function App() {
 			<Switch>
 				<Route exact path='/' component={Home} />
 			</Switch>
+			
+			<NotificationContainer />
 		</div>
 	</Router>
   );
